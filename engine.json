@@ -4,7 +4,8 @@
   "engineFactory": "org.template.vanilla.VanillaEngine",
   "datasource": {
     "params" : {
-      "appId": 7
+      "appId": 6,
+      "appName":"MyApp6"
     }
   },
   "algorithms": [
