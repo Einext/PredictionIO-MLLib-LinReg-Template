@@ -5,13 +5,9 @@ package org.template.vanilla
 import org.apache.predictionio.controller.IEngineFactory
 import org.apache.predictionio.controller.Engine
 
-class Query(
-  val features: Array[Double]
-) extends Serializable
 
-class PredictedResult(
-  val prediction: Double
-) extends Serializable
+
+case class PredictedResult(val prediction: Double)
 
 object VanillaEngine extends IEngineFactory {
   def apply() = {
